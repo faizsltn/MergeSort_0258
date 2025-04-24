@@ -96,3 +96,9 @@ void mergeSort(int low, int high)
     }
     cout << endl;
 }
+int main()
+{
+    input();
+    mergeSort(0, n - 1);
+    output();
+}
